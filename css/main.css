@@ -1,0 +1,167 @@
+/* Inserta tu codigo aqui */
+
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+}
+
+.contenedor{
+    width: 900px;
+    margin: auto;
+    
+}
+/*-----header----*/
+header{
+    background: black;
+   
+    
+}
+img{
+    width: 250px;
+}
+ul{
+    float: right;
+	list-style: none;
+	margin: 0;
+	padding-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-right: 5px
+}
+
+/*-----adicionales----*/
+body{
+    background: #2d2735;
+}
+
+.hero{
+    margin-top: 30px;
+}
+.banner {
+    background-image: url(../image/header-image.jpg);
+    background-size: cover;
+    width: inherit;
+    height:380px;
+    display: table;
+    position: absolute;
+    
+    
+}
+
+.flower-banner{
+        position: relative;
+        background: rgba(0,0,0,0.9);
+        width: 60%;
+        height:60%;
+        border: 1px solid rgba(0,0,0,0.9);
+        left: 20%;
+        transform: translateY(30%);
+        text-align: center;
+        display: table;
+        text-align: center;
+                
+} 
+.frase{
+   
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.flower-banner h1 {
+    padding: 0;
+    margin: 0px;
+    color: #f5b966;
+    font-family: Courgette;
+    font-size: 60px;
+    padding-bottom: 20px;
+        
+   
+}
+.flower-banner p {
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    font-family:sans-serif;
+    
+    
+}
+
+/*----section columnas----*/
+
+.clear-fix:after{
+    content: "";
+    clear: both;
+}
+
+section{
+    background-color: #817777;
+    color: white;
+}
+.col-1, .col-2, .col-3 {
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    display: table
+        
+}
+.col-1{
+    width: 60%;
+}
+.col-1 h1{
+    font-size: 50px;
+}
+.col-2{
+    width: 40%;
+}
+.block-form{
+    margin: 20px;
+	background: #a89d9d;
+	border-radius: 10px;
+	padding: 5px 15px;
+	text-align: center;
+}
+.block-form input, .block-form button
+{
+	width: 100%;
+	box-sizing: border-box;
+    height: 30px;
+}
+.block-form button{
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+}
+/*--@media----*/
+@media (max-width:900px){
+	.contenedor{
+		width: 700px;
+    }
+}
+@media (max-width:700px){
+  .contenedor{
+        width: 100%;
+    }
+ .col-1{
+        width: 100%;
+    }
+  .col-2{
+        width: 100%;
+        clear: both;
+    }
+	.block-form{
+		margin: 0;
+	}
+}
+
