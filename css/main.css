@@ -48,6 +48,7 @@ body{
 
 .hero{
     margin-top: 30px;
+    background: #2d2735;
 }
 .banner {
     background-image: url(../image/header-image.jpg);
@@ -55,7 +56,7 @@ body{
     width: inherit;
     height:380px;
     display: table;
-    position: absolute;
+   
     
     
 }
@@ -77,6 +78,7 @@ body{
    
     display: table-cell;
     vertical-align: middle;
+    width: 100% auto;
 }
 
 .flower-banner h1 {
@@ -99,50 +101,65 @@ body{
 }
 
 /*----section columnas----*/
-
-.clear-fix:after{
-    content: "";
-    clear: both;
-}
-
-section{
-    background-color: #817777;
-    color: white;
-}
 .col-1, .col-2, .col-3 {
     float: left;
     box-sizing: border-box;
     padding: 10px;
-    display: table
+    display: table;
+    width: 33%;
+    
         
 }
-.col-1{
-    width: 60%;
+
+.contenido img{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    
 }
-.col-1 h1{
-    font-size: 50px;
+
+.contenido h6 {
+    text-align: center;
+    font-family: Courgette;
+    color: #f5b966;
+    font-size: 14px;
+    margin: 0;
 }
-.col-2{
-    width: 40%;
+.contenido p {
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    color: #FFF;
+    
 }
-.block-form{
-    margin: 20px;
-	background: #a89d9d;
-	border-radius: 10px;
-	padding: 5px 15px;
-	text-align: center;
+/*----section muestra-video----*/
+
+.colvid-1{
+    width: 58%;
+    display: inline-block;
+    vertical-align: top;
 }
-.block-form input, .block-form button
-{
-	width: 100%;
-	box-sizing: border-box;
-    height: 30px;
+
+.colvid-2{
+    width: 38%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left:2% ;
+    
 }
-.block-form button{
-    background-color: blue;
-    color: white;
-    border: 2px solid blue;
+.contenido-vid iframe{
+    width: 100%;
 }
+.colvid-1 img{
+    width: 100%;
+}
+
+.colvid-2 img{
+    width: 80%;
+    
+}
+
+
 /*--@media----*/
 @media (max-width:900px){
 	.contenedor{
@@ -160,8 +177,21 @@ section{
         width: 100%;
         clear: both;
     }
-	.block-form{
+  .col-3{
+        width: 100%;
+        clear: both;
+    }
+  .block-form{
 		margin: 0;
 	}
+  .colvid-1{
+     width: 100%;
+        clear: both;
+    }
+
+  .colvid-2{
+    width: 100%;
+        clear: both;
+    }
 }
 
