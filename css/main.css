@@ -156,7 +156,15 @@ body{
 
 .colvid-2 img{
     width: 80%;
-    
+}
+.contenido label{
+    color: #FFF;
+    width: 10%;
+    height: auto;
+    text-align: center;
+    border-radius: 2px;
+    text-align: center;
+    margin: 2%;
 }
 
 
